@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+textarea {
+  resize: none;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: $other-white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primary-color;
+  border-radius: 100vh;
+  border: 3px solid $white-color;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $dark-primary-color;
+}
