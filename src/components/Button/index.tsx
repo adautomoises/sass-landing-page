@@ -6,8 +6,10 @@ interface Props {
 
 export function Button({ name, url, blank }: Props) {
   return (
-    <a className="button" href={url} target={blank ? "_blank" : "_self"}>
-      {name}
-    </a>
+    <div className="button">
+      <a href={url} target={blank ? "_blank" : "_self"}>
+        {name}
+      </a>
+    </div>
   );
 }

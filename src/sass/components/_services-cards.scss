@@ -1,0 +1,21 @@
+.services-card {
+  @include center;
+  max-height: 400px;
+
+  span {
+    color: $primary-color;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  p {
+    word-break: break-word;
+    font-size: 1rem;
+  }
+  img {
+    margin-right: 0.5rem;
+  }
+  padding: 0.5rem;
+  border-radius: 1.25rem;
+  border-bottom: 3px solid $primary-color;
+}

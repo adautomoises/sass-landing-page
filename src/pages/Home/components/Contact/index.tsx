@@ -3,7 +3,7 @@ import { Button } from "../../../../components/Button";
 export function Contact() {
   return (
     <section id="contato" className="contact">
-      <form>
+      <form className="contact-form">
         <label htmlFor="name">Nome</label>
         <input type="text" name="name" placeholder="Seu nome" />
 

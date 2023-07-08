@@ -1,7 +1,4 @@
 a {
-  width: min-content;
-  text-align: center;
-
   &:hover {
     color: $primary-color;
   }
@@ -15,10 +12,10 @@ button {
 }
 
 .navigation {
+  @include center;
+
   width: 100%;
-  display: flex;
   justify-content: flex-end;
-  align-items: center;
   gap: 1rem;
 
   @media (max-width: 768px) {
@@ -42,16 +39,17 @@ button {
 }
 
 .navigation-mobile-button-close-container {
+  @include center;
+
   width: 100%;
-  display: flex;
   justify-content: end;
 }
 
 .navigation-mobile {
+  @include center;
+
   width: 100%;
-  display: flex;
   justify-content: flex-end;
-  align-items: center;
   flex-direction: column;
   gap: 1rem;
   padding: 1rem;

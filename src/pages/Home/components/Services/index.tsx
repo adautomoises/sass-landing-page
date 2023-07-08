@@ -22,7 +22,7 @@ export function Services() {
           "Design de UX e UI cativantes que proporcionam uma experiência intuitiva e envolvente, impulsionando a satisfação e fidelidade dos usuários.",
         ],
       ].map(([icon, title, description], index) => (
-        <div key={index}>
+        <div className="services-card" key={index}>
           <div className="services-icon">
             <img src={icon} alt={title} />
           </div>

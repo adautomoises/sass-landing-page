@@ -1,0 +1,22 @@
+.contact-form {
+  @include center;
+  min-width: 300px;
+  max-width: 50%;
+  flex-direction: column;
+  background-color: $white-color;
+  border-radius: 1rem;
+  padding: 1rem;
+  gap: 1rem;
+  box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  input,
+  textarea,
+  label {
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    border: 1px solid $gray-color;
+    border-radius: 0.25rem;
+  }
+}
