@@ -18,8 +18,8 @@ export function Portfolio() {
       </h3>
       <div className="portfolio-cards">
         {[card1, card2, card3, card4, card5, card6, card7, card8, card9].map((card, index) => (
-          <div key={index}>
-            <img src={card} alt="Card do serviços de nosso cliente." />
+          <div className="card" key={index}>
+            <img className="card-image" src={card} alt="Card do serviços de nosso cliente." />
           </div>
         ))}
       </div>

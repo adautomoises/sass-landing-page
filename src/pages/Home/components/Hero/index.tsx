@@ -17,7 +17,11 @@ export function Hero() {
         <Button name="Saiba mais" url="#contato" />
       </div>
       <div className="hero-right-section">
-        <img src={tablet} alt="Uma arte feita por IA em um tablet com uma caneta ao lado." />
+        <img
+          className="hero-image"
+          src={tablet}
+          alt="Uma arte feita por IA em um tablet com uma caneta ao lado."
+        />
       </div>
     </section>
   );
